@@ -6,9 +6,9 @@ function Button(props) {
     const [position, setPosition] = useState({x:null, y:null})
     
    const moveButton = () => {
-    const padding = 600
-    const randomX = Math.floor(Math.random() * padding ) + 250
-    const randomY = Math.floor(Math.random() * padding) + 250
+    const padding = 500
+    const randomX = Math.floor(Math.random() * padding ) + 150
+    const randomY = Math.floor(Math.random() * padding) + 150
 
     setPosition({x: randomX, y: randomY})
 
