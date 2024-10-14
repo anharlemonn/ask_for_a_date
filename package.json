@@ -2,7 +2,7 @@
   "name": "ask_for_a_date",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anharlemonn.github.io/ask_for_a_date/",
+  "homepage": "https://anharlemonn.github.io/ask_for_a_date",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
