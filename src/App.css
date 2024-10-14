@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +36,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button { 
+  border-color: rgb(255, 172, 172);
+  color: white;
+  background-color: rgb(255, 172, 172);
+  color: white;
+  /* position: 'absolute';  */
+  width: 80px;
+  height: 30px;
+  transition: 'top 0.5s, left 0,5s'; 
+}
+
+.button-container {
+  display: flex;
+  gap: 150px; /* Space between the buttons */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px; 
+  min-width: 500px;
+  /* justify-content: center; */
+  
 }
