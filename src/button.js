@@ -21,6 +21,7 @@ function Button(props) {
                 left: `${position.y}px`,
             }}
             onMouseEnter={moveButton}
+            onClick={moveButton}
             >
             {props.text}
             
